@@ -1,0 +1,22 @@
+# Build/test output
+obj
+bin
+
+# Per-user data
+*.bak
+*.DS_Store
+*.sln.cache
+*.suo
+*.userprefs
+*.usertasks
+*.user
+
+# NuGet Packages
+*.nupkg
+# Ignore the packages folder
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
